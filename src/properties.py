@@ -1,7 +1,7 @@
 from os.path import exists
 from os import makedirs
 
-new_directory = r'C:\Users\JG\Desktop\imgs\organizado'
+new_directory = r'C:\xxx\xxx'
 junk_directory = f'{new_directory}\junk'
 
 img_extensions = [
@@ -26,5 +26,5 @@ junk_extensions = [
 ]
 
 directories = [
-    r'C:\Users\JG\Desktop\imgs\imgs'
+    r'C:\yyyy\yyyy'
 ]
