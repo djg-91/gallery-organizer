@@ -14,14 +14,17 @@ img_extensions = [
 
 video_extensions = [
     '.mp4',
-    '.3gp'
+    '.3gp',
+    '.mov',
+    '.avi',
+    '.mkv'
 ]
 
 junk_extensions = [
-    '.ini'
+    '.ini',
+    '.nomedia'
 ]
 
 directories = [
-    r'C:\Users\JG\Desktop\imgs\imgs',
-    r'C:\Users\JG\Desktop\imgs\imgs\2014-10-03'
+    r'C:\Users\JG\Desktop\imgs\imgs'
 ]

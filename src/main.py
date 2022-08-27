@@ -9,8 +9,9 @@ def create_directory(directory):
 
 
 def get_created_time(filename):
-    epoch_time = os.path.getmtime(filename)
-    return time.strftime('%Y-%m-%d', time.localtime(epoch_time))
+    file_info = os.stat(filename)
+    file_fist_date = file_info.st_mtime if file_info.st_mtime <= file_info.st_ctime else file_info.st_mtime
+    return time.strftime('%Y-%m-%d', time.localtime(file_fist_date))
 
 
 def get_list_of_files(directory, files):
